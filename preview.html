@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+
+<title>موقعي التعليمي</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Tahoma;
+}
+
+body{
+background:linear-gradient(135deg,#eef2ff,#ffffff);
+}
+
+/* الهيدر */
+
+header{
+background:linear-gradient(135deg,#4a6cff,#6a5cff);
+color:white;
+text-align:center;
+padding:40px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+header h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+/* القائمة */
+
+nav{
+background:#2c3e50;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:20px;
+font-size:18px;
+font-weight:bold;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#ffd43b;
+}
+
+/* الحاوية */
+
+.container{
+width:90%;
+margin:auto;
+display:flex;
+margin-top:30px;
+}
+
+/* المقالات */
+
+main{
+flex:3;
+}
+
+.article{
+background:white;
+padding:25px;
+margin-bottom:25px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.article:hover{
+transform:translateY(-5px);
+}
+
+.article h2{
+color:#4a6cff;
+margin-bottom:10px;
+}
+
+/* الشريط الجانبي */
+
+.sidebar{
+flex:1;
+margin-left:20px;
+}
+
+.ad{
+background:#ffeaa7;
+padding:30px;
+margin-bottom:20px;
+text-align:center;
+border-radius:12px;
+font-weight:bold;
+font-size:18px;
+}
+
+/* الفوتر */
+
+footer{
+background:#2c3e50;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>📚 موقعي التعليمي</h1>
+<p>دروس وملخصات وتمارين للطلاب</p>
+</header>
+
+<nav>
+<a href="#">الرئيسية</a>
+<a href="#">الدروس</a>
+<a href="#">التمارين</a>
+<a href="#">الملخصات</a>
+<a href="#">اتصل بنا</a>
+</nav>
+
+<div class="container">
+
+<main>
+
+<div class="article">
+<h2>📘 درس جديد</h2>
+<p>يمكنك هنا نشر الدروس التعليمية الخاصة بك.</p>
+</div>
+
+<div class="article">
+<h2>📝 ملخص دراسي</h2>
+<p>ضع ملخصات للطلاب ليسهل عليهم الفهم.</p>
+</div>
+
+<div class="article">
+<h2>📊 تمارين مع الحل</h2>
+<p>ضع تمارين مع الحلول ليستفيد الطلاب.</p>
+</div>
+
+</main>
+
+<div class="sidebar">
+
+<div class="ad">
+📢 مكان إعلان
+</div>
+
+<div class="ad">
+📢 إعلان آخر
+</div>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html>
